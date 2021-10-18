@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## HOW TO CREATE TABS IN R MARKDOWN
 
+## No need to save HTMLS - add to `.html` to the `.gitignore` file to make sure htmls are not saved. Stage, commit, comment, push, and pull
+
 ### FORMATTING TABS
 
 - use a level 3 header `###` and `{.tabset .tabset-fade}` followed by a level 4 header and puts everything following into the tabs. 
