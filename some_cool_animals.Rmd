@@ -8,6 +8,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## HOW TO CREATE TABS IN R MARKDOWN
+
+### FORMATTING TABS
+
+- use a level 3 header `###` and `{.tabset .tabset-fade}` followed by a level 4 header and puts everything following into the tabs. 
+- new tab is created using another level 4 tab.
+- here we added in a new tab after pika but before the level 3 header
+
+SEE SHARKS BELOW
+
 ##### A note on this project:
 
 The organization of this document probably seems strange. That's because it's part of an entire multi-part lab for ESM 206, which students will create in multiple projects (but are combined here for easier sharing). Hence the weird unrelated pieces all put together in this project (students will create Parts 2 & 3 as separate projects).
@@ -45,6 +55,17 @@ The organization of this document probably seems strange. That's because it's pa
 - Pika are of order *Lagomorpha* (which also includes rabbits)
 - Pika live in high altitude talus slopes
 - American pika are already disappearing from the Sierra Nevada
+
+
+#### Ring-tailed Cats
+
+# Info on this cutie!
+## Add a picture with a file in your folders `![]()`
+
+![Ring-tail Cat - Courtesy of Virigina Zoo](img/ringtail_cat.jpg)
+
+## we'll also learn about `knitrr::include_graphics()` as another way to put pictures into your document
+
 
 ###
 
